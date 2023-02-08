@@ -7,7 +7,7 @@ import { fadeIn } from "../utils/motion";
 const ExploreCard = ({ world, active, handleClick, index }) => {
     return (
         <motion.div
-            variants={fadeIn("right", "spring", index * 0.1, 0.75)}
+            variants={fadeIn("right", "spring", index * 0.5, 0.75)}
             className={`relative ${
                 active === world.id ? "lg:flex-[4] h-[600px]" : "lg:flex-1 h-20"
             } flex items-center justify-center  lg:h-[700px] transition-[all] duration-700 cursor-pointer overflow-hidden`}
