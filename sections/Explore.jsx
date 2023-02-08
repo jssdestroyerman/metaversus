@@ -8,7 +8,7 @@ import { exploreWorlds } from "../constants";
 import { useState } from "react";
 
 const Explore = () => {
-    const [active, setActive] = useState(""); /* ex: "world-1" */
+    const [active, setActive] = useState("world-2"); /* ex: "world-1" */
 
     return (
         <section className={`${styles.paddings}`} id="explore">
